@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Demo2Newd"
              x:Class="Demo2Newd.MainPage">
 
-    <StackLayout>
+    <!--<StackLayout>
 
         <Picker x:Name="picMusik"
                 Title="Seleccionar Genero"
@@ -75,6 +75,10 @@
         ></Switch>
 
 
-    </StackLayout>
+    </StackLayout>-->
+    <WebView x:Name="wvActualizaP"
+             Source="www.3idsoluciones.com.co"
+             Navigated="wvActualizaP_Navigated"></WebView>
+    
 
 </ContentPage>

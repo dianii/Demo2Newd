@@ -12,7 +12,7 @@ namespace Demo2Newd
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+        }/*
         private void picMusik_Changed(object sender, EventArgs e)
         {
             var elementoSeleccionado = picMusik.SelectedItem.ToString();
@@ -58,6 +58,10 @@ namespace Demo2Newd
             {
                 DisplayAlert("Mensaje", "No esta Activo", "Aceptar");
             }
+        }*/
+        private void wvActualizaP_Navigated(object sender, EventArgs e) {
+
+            DisplayAlert("WebView", "Ha Finalizado  la carga de la pagina", "Aceptar");
         }
     }
 }
